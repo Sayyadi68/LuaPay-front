@@ -1,0 +1,40 @@
+.shop_box {
+    height: auto;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+    align-content: stretch;
+    border-radius: 10px;
+    margin-right: 9%;
+    margin-left: 8%;
+    margin-bottom: 30px;
+}
+
+.ShopItem {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 8px;
+    background: #ece1b8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 200ms ease-in-out;
+}
+.ShopItem img {
+    width: 230px;
+    height: 150px;
+    border-radius: 8px 8px 0px 0px;
+}
+.ShopItem p {
+    font-size: 1rem;
+    margin: 10px;
+}
+.ShopItem:hover {
+    transform: translateY(-5px);
+    transition: .4s;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 60%);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    cursor: pointer;
+}
