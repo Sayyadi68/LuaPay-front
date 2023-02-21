@@ -253,7 +253,7 @@ background: #22A39F;
 }
 
 .Lmove{
-  animation: leftRight 3s infinite ;
+  animation: leftRight 2s infinite ;
 }
 @keyframes leftRight {
   0% {
@@ -268,7 +268,7 @@ background: #22A39F;
   }
 }
 .Umove{
-  animation: UpDown 3s infinite ;
+  animation: UpDown 2s infinite ;
 }
 @keyframes UpDown {
   0% {
@@ -285,7 +285,7 @@ background: #22A39F;
   }
 }
 .Amove{
-  animation: Rightleft 3s infinite ;
+  animation: Rightleft 2s infinite ;
 }
 @keyframes Rightleft {
   0% {
