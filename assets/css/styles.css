@@ -19,7 +19,7 @@ p,a{
 }
 
 /* navbar */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -238,9 +238,8 @@ background: #22A39F;
 .font{
   font-size: 25px;
   font-weight: bolder;
-  font-family: 'JetBrainsMono';
+  font-family: 'JetBrains Mono', monospace;
 }
-
 .rotate{
   animation: rotation 2.5s infinite linear;
 }
@@ -253,3 +252,49 @@ background: #22A39F;
   }
 }
 
+.Lmove{
+  animation: leftRight 3s infinite ;
+}
+@keyframes leftRight {
+  0% {
+    transform:translate(0px);
+  }
+  50%{
+    transform: translate(50px);
+
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+.Umove{
+  animation: UpDown 3s infinite ;
+}
+@keyframes UpDown {
+  0% {
+    transform:translatey(-30px);
+  }
+  25%{
+    transform: translatey(30px);
+  }
+  50% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-30px);
+  }
+}
+.Amove{
+  animation: Rightleft 3s infinite ;
+}
+@keyframes Rightleft {
+  0% {
+    transform:translate(0px);
+  }
+  50%{
+    transform: translate(-50px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
