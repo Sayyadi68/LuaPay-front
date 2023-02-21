@@ -1,0 +1,211 @@
+/* -------------------------------------- */
+.simple-slider .swiper-slide {
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 200ms ease-in-out;
+    background: #0cd4b3;
+  }
+  
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 200ms ease-in-out;
+  }
+  
+  @media (max-width:767px) {
+    .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+      display: none;
+      transition: all 200ms ease-in-out;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .simple-slider .swiper-slide {
+      height: 360px;
+      transition: all 200ms ease-in-out;
+    }
+  }
+  
+  .slider-bg-color{
+    background-color: #22A39F;
+  }
+  
+  /* --------------------------------------- */
+
+  .shop_box {
+    height: auto;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+    align-content: stretch;
+    border-radius: 10px;
+    margin-right: 9%;
+    margin-left: 8%;
+    margin-bottom: 30px;
+}
+
+.ShopItem {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 8px;
+    background: #ece1b8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 200ms ease-in-out;
+}
+.ShopItem img {
+    width: 230px;
+    height: 150px;
+    border-radius: 8px 8px 0px 0px;
+}
+.ShopItem p {
+    font-size: 1rem;
+    margin: 10px;
+}
+.ShopItem:hover {
+    transform: translateY(-5px);
+    transition: .4s;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 60%);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    cursor: pointer;
+}
+
+/* ---------------------------------------------- */
+.about-item_box {
+    height: auto;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+    align-content: stretch;
+    border-radius: 10px;
+    margin-right: 15%;
+    margin-left: 12%;
+    margin-bottom: 30px;
+    position: relative;
+    top: -110px;
+    z-index: 1;
+}
+
+.AboutItem {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 13px;
+    background: #ece1b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    transition: all 200ms ease-in-out;
+}
+.AboutItem p {
+    font-size: 1rem;
+    margin: 10px;
+    color: var(--about-card);
+}
+.AboutItem:hover {
+    transform: translateY(-5px);
+    transition: .4s;
+    transition: all 200ms ease-in-out;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 60%);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    cursor: pointer;
+}
+.seemore {
+    width: 150px;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+    background-color:  #22A39F;
+    margin: auto auto 15px 15px;
+}
+
+/* -------------------------------------------- */
+.HelpItem_box {
+  height: auto;
+  overflow-y: hidden;
+  display: grid;
+  grid-template-columns: repeat(14,1fr);
+  align-content: stretch;
+  border-radius: 10px;
+  margin-right: 9%;
+  margin-left: 9%;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+.HelpItem {
+  width: 140px;
+  height: 140px;
+  transition: all 200ms ease-in-out;
+  margin: 9px;
+  border-radius: 13px;
+  background: #ece1b8;
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  text-align: center;
+}
+.HelpItem img{
+  background: #22A39F;
+  border-radius: 10px;
+  margin: 10px 10px 0px ;
+}
+.HelpItem p {
+  font-size: 1rem;
+  margin: 12px;
+  color: #22A39F;
+}
+.HelpItem:hover {
+  transform: translateY(-5px);
+  transition: .4s;
+  box-shadow: 0px 3px 10px rgb(0 0 0 / 60%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  cursor: pointer;
+}
+
+/* ------------------------------------------- */
+
+.simple-slider .swiper-slide {
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all 200ms ease-in-out;
+  background: #0cd4b3;
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    display: none;
+    transition: all 200ms ease-in-out;
+  }
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-slide {
+    height: 360px;
+    transition: all 200ms ease-in-out;
+  }
+}
+
+.slider-bg-color{
+  background-color: #22A39F;
+}

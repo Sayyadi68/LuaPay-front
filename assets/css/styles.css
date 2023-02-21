@@ -2,8 +2,11 @@ html,body{
   height: 100%;
   background: #e7e6e6;
 }
+
+
 p,a{
   color: #222222;
+  
 }
 *{
     box-sizing: border-box;
@@ -232,6 +235,12 @@ background: #22A39F;
   justify-content: center;
   align-items: center;
 }
+.font{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'JetBrainsMono';
+}
+
 .rotate{
   animation: rotation 2.5s infinite linear;
 }
@@ -243,3 +252,4 @@ background: #22A39F;
     transform: rotate(359deg);
   }
 }
+

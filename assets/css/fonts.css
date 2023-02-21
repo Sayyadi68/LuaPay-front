@@ -1,0 +1,8 @@
+
+@font-face {
+    font-family: 'JetBrainsMono-Light';
+    src: url('../font/JetBrainsMono-Light.eot') format('embedded-opentype');
+    src: url('../font/JetBrainsMono-Light.eot?#iefix') format('embedded-opentype'),
+    url('../font/JetBrainsMono-Light.ttf') format('truetype'),
+    url('../font/JetBrainsMono-Light.woff') format('woff');
+  }
