@@ -8,12 +8,12 @@ if( titeldata.innerHTML < 50 ){
     progbarright.classList.add("d-none");
 }
 
-if( titeldata.innerHTML >= 50 ){
+if( titeldata.innerHTML == 50 ){
     progbarleft.style.transform = 'rotate(' + 180 + 'deg)';
-    progbarright.classList.remove("d-none");
+    progbarright.classList.add("d-none");
 }
 
-if( titeldata.innerHTML > 50 ){
+if( titeldata.innerHTML >= 50 ){
 
     progbarright.classList.remove("d-none");
 
@@ -22,6 +22,5 @@ if( titeldata.innerHTML > 50 ){
     setTimeout(function() {
         progbarright.style.transform = 'rotate(' + [titeldata.innerHTML*3.6 ] + 'deg)';
     },1000)
-
 
 }
