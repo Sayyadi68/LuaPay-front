@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/login-register.css" />
+    <link rel="stylesheet" href="assets/css/togglebtn.css" />
 
   </head>
 
@@ -36,29 +37,101 @@
     
     <div class="login-register">
 
-        <div><input id="login_btn" class="w-25 border-1 p-1 btn" type="button" value="ورود" ><input id="reg-btn" class="w-25 border-1 p-1 btn mx-2 opacity-50" type="button" value="عضویت" ></div>
+        <div>
+          <input id="login_btn" class="w-25 border-1 p-1 btn" type="button" value="ورود" ><input id="reg-btn" class="w-25 border-1 p-1 btn mx-2 opacity-50" type="button" value="عضویت" ></div>
 
         <div id="Login" class="login d-flex flex-column justify-content-center text-center">
             <p class="tag">ورود</p>
             <form action="" class="d-flex flex-column justify-content-center text-end">
-                <div class="d-flex flex-row text-center justify-content-center align-items-center mt-3">  <i class=" icon fa fa-user-circle-o"></i> <input class="input" type="text" name="" id=""></div>
-                <div class="d-flex flex-row text-center justify-content-center align-items-center mt-3">  <i class=" icon fa fa-key"></i><input class="input" type="password" name="" id=""></div>
-                <div class="d-flex flex-row text-center justify-content-center align-items-center mt-3">  <i class=" icon fa ">@</i><input class="input" type="email" name="" id=""></div>
-                <p class="me-2 mt-4"><input type="checkbox" name="" id=""> مرا به یاد داشته باش </p>
-                <a class="me-2" href="" >فراموشی رمز عبور </a>
-                <div class="d-flex flex-row justify-content-around p-4 bordertop" ><button class="fa fa-google px-5 pt-2 pb-2 mx-3 button" style="color:rgb(240, 75, 9);"></button><button class="fa fa-twitch px-5 pt-2 pb-2 mx-3 button" style="color:blueviolet;"></button></div>
-            </form>
+              
+              <div class="login-box">
+               
+                    <div class="user-box">
+                        <input type="text" name="" required="">
+                        <label>نام کاربری</label>
+                    </div>
+
+                    <div class="user-box">
+                        <input type="password" name="" required="">
+                        <label>رمز عبور</label>
+                    </div>
+
+                    <div class="user-box">
+                      <input type="text" name="" required="">
+                      <label>ایمیل</label>
+                    </div>
+                  
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="mx-2 mb-1">ورود</div>
+                    </a>
+               
+            </div>
+
+              <div class="d-flex align-items-center text-center">
+
+                <label class="switch mx-2">
+                  <input type="checkbox" checked>
+                  <span class="slider round"></span>
+                </label>
+                <span class="mt-5"> مرا به یاد داشته باش </span>
+                
+              </div>
+
+                <div><a class="w-100 mt-3" href="" >فراموشی رمز عبور </a></div>
+                <div><a class="w-100 " href="" >ثبت نام نکردم.</a></div>
+                <div class="d-flex flex-row justify-content-around p-4 bordertop" ><button class="fa fa-google px-5 pt-2 pb-2 mx-3 button" style="color:rgb(240, 75, 9); "></button><button class="fa fa-twitch px-5 pt-2 pb-2 mx-3 button" style="color:blueviolet;"></button></div>
+            
+              </form>
         </div>
 
         <div id="Register" class="register d-flex flex-column justify-content-center text-center d-none ">
            <p class="tag">عضویت</p>
-            <form action="" class="d-flex flex-column justify-content-center text-end">
-                <div class="d-flex flex-row text-center justify-content-center align-items-center mt-3">  <i class=" icon fa fa-user-circle-o"></i> <input class="input" type="text" name="" id=""></div>
-                <div class="d-flex flex-row text-center justify-content-center align-items-center mt-3">  <i class=" icon fa fa-key"></i><input class="input" type="password" name="" id=""></div>
-                <div class="d-flex flex-row text-center justify-content-center align-items-center mt-3">  <i class=" icon fa ">@</i><input class="input" type="email" name="" id=""></div>
-                <a class="me-2 mt-2" href="" >ثبت نام نکردم.</a>
-                <div class="d-flex flex-row justify-content-around p-4 bordertop" ><button class="fa fa-google px-5 pt-2 pb-2 mx-3 button" style="color:rgb(240, 75, 9);"></button><button class="fa fa-twitch px-5 pt-2 pb-2 mx-3 button" style="color:blueviolet;"></button></div>
-            </form>
+            
+              <form action="" class="d-flex flex-column justify-content-center text-end">
+              
+                <div class="login-box">
+                 
+                      <div class="user-box">
+                          <input type="text" name="" required="">
+                          <label>نام کاربری</label>
+                      </div>
+                      
+                      <div class="user-box">
+                        <input type="text" name="" required="">
+                        <label>ایمیل</label>
+                      </div>
+
+                      <div class="user-box">
+                          <input type="password" name="" required="">
+                          <label>رمز عبور</label>
+                      </div>
+
+                      <div class="user-box">
+                        <input type="password" name="" required="">
+                        <label>تکرار رمز عبور</label>
+                      </div>
+  
+                    
+                      <a href="#">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <div class="mb-1" style="width: 200px;"> ثبت نام </div>
+                      </a>
+                 
+              </div>
+  
+                
+              
+              </form>
+             
+              <div class="d-flex flex-row justify-content-around p-4 bordertop" ><button class="fa fa-google px-5 pt-2 pb-2 mx-3 button" style="color:rgb(240, 75, 9);"></button><button class="fa fa-twitch px-5 pt-2 pb-2 mx-3 button" style="color:blueviolet;"></button></div>
+            
         </div>
 
     </div>
