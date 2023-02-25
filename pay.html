@@ -80,7 +80,7 @@ exchange your money easily "
 
       <div class="d-flex container">
 
-        <section class="p-4 d-flex align-items-center flex-column" style="width: 500px ; height: 900px; border-radius: 8px; background: #ece1b8;">
+        <section class="p-4 d-flex align-items-center flex-column" style="width: 500px ; border-radius: 8px; background: #ece1b8;">
           
             <div class="d-flex flex-row justify-content-between">
               <div class="user-imge-container">
@@ -89,7 +89,7 @@ exchange your money easily "
             
               <div class="mx-5">
                 <p style="font-size: 20px; font-weight: bold;">streamer name</p>
-                <div> <i class="fa fa-youtube"></i> <i class="fa fa-instagram"></i> <i class="fa fa-twitch"></i> <i class="fa fa-twitter"></i> <i class="fa fa-discord"></i> </div>
+                <div class="d-flex flex-row justify-content-between"> <a class="fa fa-youtube" style="cursor: pointer; font-size:20px;"></a> <a class="fa fa-instagram" style="cursor: pointer; font-size:20px;"></a> <a class="fa fa-twitch" style="cursor: pointer; font-size:20px;"></a> <a class="fa fa-twitter" style="cursor: pointer; font-size:20px;"></a> </div>
               </div>
   
             </div>
@@ -131,7 +131,7 @@ exchange your money easily "
                   <input type="checkbox" checked>
                   <span class="slider round"></span>
                 </label>
-                <span class="">نمایش نام در پخش</span>
+                <span class="" style="font-size: 12px; font-weight: bold;">نمایش نام در پخش</span>
               </div>
 
               <div class="d-flex align-items-center text-center  mt-3">
@@ -139,7 +139,7 @@ exchange your money easily "
                   <input type="checkbox" checked>
                   <span class="slider round"></span>
                 </label>
-                <span class="">نمایش توضیحات در پخش</span>
+                <span class="" style="font-size: 12px; font-weight: bold;">نمایش توضیحات در پخش</span>
               </div>
 
               <div class="d-flex align-items-center text-center  mt-3">
@@ -147,10 +147,25 @@ exchange your money easily "
                   <input type="checkbox" checked>
                   <span class="slider round"></span>
                 </label>
-                <span class="">نام و مشخصات مرا در لیست حامیان نشان بده</span>
+                <span class="" style="font-size: 12px; font-weight: bold;">نام و مشخصات مرا در لیست حامیان نشان بده</span>
               </div>
 
+              <label for="ruls" class="m-3" style="cursor: pointer;">
+                <input type="checkbox" id="ruls">
+                <span>'قوانین مربوط به حمایت کنندگان' را میپذیرم و با اطلاع کامل از اینکه حمایتی که انجام میدهم بصورت اختیاری و با واحد تومان میباشد، تایید میکنم که مالک کارت بانکی هستم و درقبال این حمایت، هیچ محصول و سرویسی دریافت نخواهم کرد و حق هرگونه شکایت را از خود سلب میکنم.
+                </span>
+              </label>
 
+              <p class="m-2" style="font-size: 10px; font-weight: bold; color: red;">*برای مبالغ 1,000,000 تومان به بالا، شماره همراه وارد شده در مرحله بعدی از طریق پیامک تایید خواهد شد.</p>
+
+              <div class="m-2">
+                <div>
+                  <input class="col-7" type="button" value="پرداخت" style="border-radius: 30px; border: none; margin: 4px;font-size:13px ; background: #1cbdda; font-weight: bold; height: 40px; color: white;"><input class="col-4" type="button" value="لیست حامیان" style="border-radius: 30px; border: none; margin: 4px;font-size:13px ; background: #ffffff; font-weight: bold; height: 40px;">
+                </div>
+
+                <!-- if streamer had an onther sub links show blow btn -->
+                <input class="col-11" type="button" value="sub در لینک هایه دیگر" style="border-radius: 30px; border: none; margin: 8px;font-size:13px ; background: #ffffff; font-weight: bold; height: 40px;">
+              </div>
   
             </section>
 
