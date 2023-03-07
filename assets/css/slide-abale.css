@@ -120,15 +120,6 @@
     -webkit-backdrop-filter: blur(12px);
     cursor: pointer;
 }
-.seemore {
-    width: 150px;
-    padding: 5px;
-    border-radius: 30px;
-    border: none;
-    background-color:  #22A39F;
-    margin: auto auto 15px 15px;
-}
-
 /* -------------------------------------------- */
 .HelpItem_box {
   height: auto;

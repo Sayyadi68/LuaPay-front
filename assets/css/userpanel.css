@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: end;
     text-align: end;
-    margin-right: 50px;
     width: 280px;
     height: 100%;
     position: fixed;
@@ -11,6 +10,7 @@
     top: 0px;
     overflow-y: scroll;
     direction: ltr;
+    background: #e7e6e6;
 }
 .user-dashboard a{
     border-radius: 40px;
@@ -40,7 +40,7 @@
     left: 0;
     margin: 130px 20px;
     border-radius: 10px;
-    width: 75%;
+    width: 76%;
     height: 75%;
     background: #ffffff;
 }
@@ -55,4 +55,86 @@
     margin: auto;
     border-radius: 90px;
     background: #ebd999;
+}
+.dashbord-container{
+    width: 100%;
+    display: grid;
+    grid-template-rows:repeat(1,1fr) ;
+    grid-template-columns:repeat(2,1fr) ;
+}
+
+@media (min-width:0px) and (max-width:580px) {
+    .user-menu{
+       transform:translateX(400px);
+    }
+    .user-panel{
+        position: fixed;
+        left: 0;
+        margin: 130px 20px;
+        border-radius: 10px;
+        width: 93%;
+        height: 75%;
+        background: #ffffff;
+    }
+    .dashbord-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media (min-width:581px) and (max-width:834px) {
+    .user-panel{
+        position: fixed;
+        left: 0;
+        margin: 130px 20px;
+        border-radius: 10px;
+        width: 94%;
+        height: 75%;
+        background: #ffffff;
+    }
+    .user-menu{
+        transform:translateX(400px);
+    }
+}
+@media (min-width:835px) and (max-width:1250px) {
+    .user-panel{
+        position: fixed;
+        left: 0;
+        margin: 130px 20px;
+        border-radius: 10px;
+        width: 84%;
+        height: 75%;
+        background: #ffffff;
+    }
+    .user-dashboard{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        text-align: end;
+        width: 110px;
+        height: 100%;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        overflow-y: scroll;
+        direction: ltr;
+        background: #e7e6e6;
+    }
+    .user-dashboard a{
+        border-radius: 40px;
+        width: 70px;
+        height: 100%;
+        padding: 16px;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0px 15px 0px 0px;
+        text-decoration: none !important;
+        display: block;
+        align-items: center;
+        color: black;
+    }
+    .user-dashboard span{
+       display: none;
+    }
+  
 }
